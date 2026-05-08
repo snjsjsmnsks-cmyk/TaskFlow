@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TaskFlow API</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      border: 1px solid #30363d;
+      padding: 40px;
+      border-radius: 6px;
+      background-color: #161b22;
+    }
+    h1 { color: #58a6ff; margin-bottom: 10px; }
+    p { margin-bottom: 20px; color: #8b949e; }
+    .status {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #238636;
+      color: white;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    .endpoints {
+      margin-top: 30px;
+      text-align: left;
+      background: #0d1117;
+      padding: 15px;
+      border-radius: 6px;
+      font-family: monospace;
+      color: #8b949e;
+    }
+    .endpoints span { color: #ff7b72; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TaskFlow API Core</h1>
+    <p>Version 3.1.0 is running.</p>
+    <div class="status">● System Operational</div>
+    
+    <div class="endpoints">
+      <div><span>GET</span> /api/health</div>
+      <div><span>GET</span> /api/tasks</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "taskflow-api",
+  "version": "3.1.0",
+  "description": "TaskFlow Core API - Handles task synchronization and management",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
